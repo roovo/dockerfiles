@@ -8,6 +8,6 @@ RUN \
   echo "export PATH=/usr/local/lib/$RUBY_VERSION/bin:$PATH" >> /.profile ;\
   . /.profile ;\
   ruby-build -v $RUBY_VERSION /usr/local/lib/$RUBY_VERSION ;\
-  echo "gem: --no-rdoc --no-ri" > /root/.gemrc ;\
-  gem install bundler foreman pry ;\
+  echo "gem: --no-document" > /root/.gemrc ;\
+  gem install bundler ;\
 # END RUN
