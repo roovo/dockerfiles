@@ -3,7 +3,7 @@ FROM roovo/ruby-build:20140110.1
 MAINTAINER roovo "roovo@roovoweb.com"
 
 RUN \
-  export RUBY_VERSION=2.0.0-p353 ;\
+  export RUBY_VERSION=2.1.0 ;\
   echo "export RUBY_VERSION=$RUBY_VERSION" >> /.profile ;\
   echo "export PATH=/usr/local/lib/$RUBY_VERSION/bin:$PATH" >> /.profile ;\
   . /.profile ;\
