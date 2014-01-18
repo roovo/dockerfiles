@@ -1,4 +1,4 @@
-FROM roovo/ruby-build:20131225.1
+FROM roovo/ruby-build:20140110.1
 
 MAINTAINER roovo "roovo@roovoweb.com"
 
