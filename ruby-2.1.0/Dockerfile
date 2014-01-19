@@ -9,5 +9,6 @@ RUN \
   . /.profile ;\
   ruby-build -v $RUBY_VERSION /usr/local/lib/$RUBY_VERSION ;\
   echo "gem: --no-document" > /root/.gemrc ;\
+  gem update --system 2.2.1 ;\
   gem install bundler ;\
 # END RUN
