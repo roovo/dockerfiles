@@ -14,8 +14,9 @@ To build locally:
 
 ```sh
 docker build -rm -t roovo/ubuntu:12.04            ./ubuntu.12.04
-docker build -rm -t roovo/ruby-build:20131225.1   ./ruby_build
-docker build -rm -t roovo/ruby:2.0.0-p247         ./ruby.2.0
+docker build -rm -t roovo/ruby-build:20140110.1   ./ruby-build\:20140110.1
+docker build -rm -t roovo/ruby-1.9.3:p484         ./ruby-1.9.3
+docker build -rm -t roovo/ruby-2.1.0              ./ruby-2.1.0
 
 docker build -rm -t roovo/mysql:5.5               ./mysql.5.5
 ```
